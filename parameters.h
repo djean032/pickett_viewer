@@ -21,6 +21,7 @@ private slots:
 private:
     template<typename PointerToMemberFunction>
     Button *createButton(const QString &text, const PointerToMemberFunction &member);
+    param process_line(QString &line);
 };
 
 #endif // PARAMETERS_H
